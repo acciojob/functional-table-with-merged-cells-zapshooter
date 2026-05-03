@@ -1,0 +1,4 @@
+{
+  "testRepo": "functional-table-with-merged-cells-solution",
+  "pathToFile": "cypress/integration/tests/test.spec.js"
+}
