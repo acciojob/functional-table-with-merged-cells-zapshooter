@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+/* Base table structure and thicker bottom/right borders */
+table {
+    border-collapse: collapse;
+    border: 1px solid orange;
+    border-bottom: 3px solid orange;
+    border-right: 3px solid orange;
+    width: 100%;
+    max-width: 800px;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+th {
+    background-color: #888;
+    color: #fff;
+    border: 1px solid orange;
+    padding: 3px 5px;
+    text-align: center;
+}
+
+/* Base cell styling */
+td {
+    border: 1px solid orange;
+    padding: 3px 5px;
+    text-align: center;
+}
+
+/* Sub-total row specific styling */
+.subTotatlRow td:first-child {
+    text-align: right; /* Aligns the 'Sub Total' text to the right as shown in the image */
+}
+
+.subTotatlRow td:nth-last-child(1),
+.subTotatlRow td:nth-last-child(2) {
+    text-align: right; /* Aligns the numbers in the last two columns to the right */
+}
